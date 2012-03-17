@@ -47,18 +47,6 @@
 * Text justify
 * Text overflow
 
-## Responsive design
-
-* Responsive design
-* Why it's hard
-* Media queries
-* Meta viewport
-
-## Box sizing
-
-* Explanation of default mode (content-box)
-* border-box, padding-box
-
 ## Transforms
 
 * rotate
@@ -72,4 +60,18 @@
 * rotate3d
 * scale3d
 * perspective
+
+## Responsive design
+
+* Responsive design
+* Why it's hard
+* Media queries
+* Meta viewport
+
+## Box sizing
+
+* Explanation of default mode (content-box)
+* border-box, padding-box
+
+
 
