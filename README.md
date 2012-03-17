@@ -1,4 +1,13 @@
-# Course Description
+# CSS3 and jQuery for Designers Class
+
+This class is being held with [General
+Assembly](http://www.galondon.com) and will be held on the 3rd of April
+2012. You can buy tickets at <http://css3fordesigners.eventbrite.com/>.
+
+This repo will cover any notes, code demos and slides that I'll be using to
+put together the class.
+
+## Course Description
 
 If you're a designer working within the web industry, it gives you a big advantage to understand what you can do with the latest technologies available. This class will teach students the ins and outs of CSS3 and jQuery from a practical design perspective. You will learn how to use these techniques to help you get the best out of your designs and help you to become a stronger, more well-rounded designer.
 
