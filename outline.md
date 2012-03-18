@@ -114,3 +114,31 @@
 * Flexbox
 * Exclusions
 
+# Javascript
+
+## What is Javascript
+
+* History of Javascript
+* "The most horrible kluge in the history of computing: Javascript."
+* Javascript: The good parts
+* WTFJS
+* Why we need to learn Javascript before jQuery
+
+## Javascript Syntax
+
+* Variables
+* Strings
+* Numbers
+* Arrays
+* Booleans
+* Operators
+* Comparisons
+* if / else / else if
+* for loops
+
+## DOM
+
+* document
+* window
+* events
+* How to get an element the Javascript way
