@@ -12,9 +12,9 @@
 
 * Mixture of presentation, live demos and sample code
 
-# What is "HTML5"?
+# What is this HTML5 exactly?
 
-* Marketing terms for a combination of HTML5, CSS3 and Javascript
+* Marketing terms for a combination of the HTML 5 standard, CSS3 and Javascript
 
 # CSS3
 
@@ -141,4 +141,66 @@
 * document
 * window
 * events
-* How to get an element the Javascript way
+* How to get an element the Javascript way demo
+
+# jQuery
+
+* A library built to simplify DOM interaction and event handling
+* Cross browser
+
+## Selectors
+
+* How to select elements in a CSS way
+* What does the $ thing actually mean?
+
+## Attributes
+
+* addClass, removeClass
+* attr, prop
+* html
+* val
+
+## Traversing
+
+* parent, next, prev, siblings
+
+## Manipulation
+
+* append, prepend
+* before, after
+* height, width
+* css
+
+## Events
+
+* click
+* hover
+* ready
+* scroll
+* on, bind
+* live
+
+## Animation
+
+* show, hide
+* slideDown, slideUp
+* fadeIn, fadeOut
+* toggle
+
+# Combining it all together
+
+* Demo
+* What about the new CSS3 stuff we learnt?
+
+# Modernizr
+
+* A library built to feature detect so that we can fallback
+* Why use it?
+* Demo example
+
+# Other features
+
+* SCSS
+* Coffeescript
+
+
