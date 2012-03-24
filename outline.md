@@ -3,13 +3,9 @@
 * Who I am
 * Background
 * Up to now
-
-## What I'll be teaching
-
-* Covering design aspects of CSS3 and jQuery
-
-## How I'll be teaching
-
+* What I'll be teaching
+* Why this is important to learn
+* How I'll be teaching
 * Mixture of presentation, live demos and sample code
 
 # What is this HTML5 exactly?
@@ -18,11 +14,7 @@
 
 # CSS3
 
-## Font-face
 
-* @font-face
-* Typekit, Fontdeck, Google
-* Licensing
 
 ## Colours
 
@@ -30,6 +22,14 @@
 * HSL
 * RGBA
 * HSLA
+
+## Text-shadow
+
+## Font-face
+
+* @font-face
+* Typekit, Fontdeck, Google
+* Licensing
 
 ## Border radius
 
