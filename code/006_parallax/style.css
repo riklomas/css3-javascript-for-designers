@@ -1,0 +1,45 @@
+body {
+  font: 1em/1.4 Helvetica, sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1.5em 0 2.5em;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+}
+
+p {
+  text-align: left;
+  margin-right: 270px;
+}
+
+#main {
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  right: 160px;
+  width: 70px;
+  height: 70px;
+  background: #cc0;
+}
+
+#shape_2 {
+  border-radius: 70px;  
+  right: 80px;
+  background: #c00;
+}
+
+#shape_3 {
+  right: 0;
+  background: #06c;
+}

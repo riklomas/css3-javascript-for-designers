@@ -1,0 +1,124 @@
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font: 1em/1.4 Helvetica, sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+
+h1, h2, a.button {
+  font-family: "Fredoka One", Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+a.button {
+  font-size: 1.2em;
+  display: inline-block;
+  background: #249022;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 50px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  background: -webkit-linear-gradient(top, hsl(119, 79%, 50%), hsl(119, 79%, 40%) 5%, hsl(119, 79%, 33%) 95%, hsl(119, 79%, 20%));
+  -webkit-transition: padding 0.5s ease;
+}
+
+a.button:hover {
+  -webkit-animation: pulse 3s infinite alternate;
+  padding: 8px 70px;
+}
+
+#thumbs {
+  list-style: none;
+  text-align: center;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+#thumbs li {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0;  
+}
+
+#thumbs li a {
+  display: block;
+  padding: 10px;
+  background: hsla(119, 79%, 30%, 0.25);
+  border-radius: 50px;
+  -webkit-transition: background 0.5s ease;
+}
+
+#thumbs li a img {
+  border-radius: 50px;  
+}  
+
+#thumbs li.selected a,
+#thumbs li a:hover {
+  background: hsl(119, 79%, 30%);
+}
+
+#thumbs li a img {
+  width: 50px;
+  vertical-align: bottom;
+}
+
+
+#signup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#signup h2 {
+  color: #222;
+  font-size: 1.25em;
+}
+
+#signup form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 500px;
+  height: 120px;
+  margin: -80px 0 0 -250px;
+  padding: 20px 0px;
+  -webkit-animation: pulse 3s infinite alternate;  
+}
+
+#signup input, #signup button {
+  font-size: 1.25em;
+}
+
+#signup a.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #f00;
+}

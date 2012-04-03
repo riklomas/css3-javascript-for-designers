@@ -1,0 +1,17 @@
+body {
+  font: 1.5em/1.4 'Averia Gruesa Libre', Helvetica, sans-serif;
+  background: url(background.jpg) #222;
+}
+
+#box {
+  margin: 150px auto;
+  padding: 150px 0;
+  text-align: center;
+  width: 400px;
+  background: #fff; 
+  color: #222;
+}
+
+#box:hover {
+  color: #f00;
+}
