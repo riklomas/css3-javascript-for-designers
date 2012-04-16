@@ -1,5 +1,14 @@
+@-webkit-keyframes glow {
+  0% {
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 200px rgba(255, 255, 255, 1);
+  }
+}
+
 body {
-  font: 1.5em/1.4 'Averia Gruesa Libre', Helvetica, sans-serif;
+  font: 1.5em/1.4 "Graduate", Helvetica, sans-serif;
   background: url(background.jpg) #222;
 }
 
@@ -10,8 +19,12 @@ body {
   width: 400px;
   background: #fff; 
   color: #222;
+  -webkit-animation: glow 2s infinite alternate;
 }
 
 #box:hover {
   color: #f00;
+  background: #999;
+  width: 600px;
+  
 }

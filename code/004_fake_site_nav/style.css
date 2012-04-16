@@ -63,18 +63,14 @@ a.button:hover {
 #thumbs li a {
   padding: 10px;
   display: block;
-  background: hsla(119, 79%, 33%, 0.3);
-  border-radius: 50px;
-  -webkit-transition: background 0.5s ease;
 }
 
 #thumbs li a img {
-  border-radius: 50px;
+
 }  
 
 #thumbs li.selected a,
 #thumbs li a:hover {
-  background: hsl(119, 79%, 33%);
 }
 
 #thumbs li a img {
